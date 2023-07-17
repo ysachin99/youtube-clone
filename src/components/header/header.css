@@ -1,0 +1,74 @@
+.main {
+    width: 1232px;
+}
+.header {
+    display: flex;
+    
+}
+.nav {
+    display: flex;
+}
+.left {
+    display: flex;
+    
+}
+.menu {
+    padding: 20px 5px 10px 20px ;
+}
+.logo {
+    padding: 5px 5px ;
+}
+.blank {
+    width: 100px;
+}
+.search-bar {
+margin-top: 5px;
+}
+input {
+   width: 644px;
+   width: 520px;
+   height: 40px;
+   border-radius: 22px 0 0 22px;
+   padding: 0 20px;
+   border: 1px solid lightgray;
+
+}
+.search-icon {
+    border-radius: 0 22px 22px 0;
+    padding: 8px 20px 5px 20px;
+    position: relative;
+    top: 7px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.mic {
+    border: transparent;
+    background-color: transparent;
+    position: relative;
+    padding: 10px;
+    top: 5px;
+}
+.mic:hover {
+    background-color: grey;
+    border-radius: 22px;
+}
+.video-icon {
+    padding: 15px 5px 10px 5px;
+    margin: 10px 10px;
+}
+.video-icon:hover {
+    background-color: lightslategray;
+    border-radius: 20px;
+
+    
+}
+.bell {
+    padding: 10px 5px  10px 5px;
+    margin: 15px;
+}
+.avatar {
+    padding: 15px 5px 10px 5px;
+    border-radius: 20px;
+    
+}

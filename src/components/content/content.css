@@ -1,0 +1,57 @@
+.body {
+    width: 1200px;
+    min-height: 750px;
+    margin-left: 80px;
+    position: absolute;
+    top:75px;
+    
+}
+.tabs {
+    width: 1200px;
+    height: 75x;
+    padding: 10px;
+    margin: 0 20px 0 0;
+
+}
+button {
+    margin: 0 20px;
+    padding:  5px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightgray;
+}
+       
+.videos {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.video-container {
+    margin-bottom: 75px;
+}
+.video-detail {
+    display: flex;
+    align-items: flex-start;
+}
+.video-image {
+    border-radius: 8px;
+}
+
+.meta {
+    margin-left: 10px;
+    align-items: center;
+}
+ 
+.meta a  {
+    text-decoration: none;
+    font-size: 12px;
+}
+.meta span {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.video-detail a {
+    margin-top: 10px;
+}
